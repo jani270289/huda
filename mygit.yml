@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-- name: des git installation
-  apt:
-   name: git
-   state: present
+  - name: des git installation
+    apt:
+     name: git
+     state: present
